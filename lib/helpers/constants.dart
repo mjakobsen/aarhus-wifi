@@ -1,0 +1,1 @@
+const String appBarTitle = 'Find fri WiFi i Aarhus :)';
