@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:map_view/map_view.dart';
 
 import '../helpers/wifi_getter_helper.dart';
 import '../helpers/constants.dart';
@@ -19,7 +18,7 @@ class _WifiMapPageState extends State<WifiMapPage> {
       appBar: new AppBar(
         title: new Text(appBarTitle),
       ),
-      body: mapView,
+      body: new Text('Hello map world'),
     );
   }
 }
